@@ -84,7 +84,7 @@
     "istanbul": "*",
     "jshint": "*",
     "mm": "*",
-    "mocha": "3",
+    "mocha": "11.0.2",
     "node-dev": "*",
     "pedding": "*",
     "pg": "5",

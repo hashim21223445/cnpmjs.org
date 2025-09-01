@@ -11,7 +11,9 @@
     "start": "./bin/nodejsctl start && cp History.md docs/web/history.md",
     "status": "./bin/nodejsctl status",
     "stop": "./bin/nodejsctl stop",
-    "ci": "make test-travis-mysql"
+    "ci": "make test-travis-mysql",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "bin": {
     "cnpmjs.org": "bin/cli.js"
@@ -74,7 +76,8 @@
     "urllib": "^2.24.0",
     "utility": "^1.12.0",
     "uuid": "^8.3.0",
-    "xss": "^1.0.10"
+    "xss": "^1.0.10",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "autod": "*",
@@ -129,5 +132,6 @@
     },
     "services": "mysql"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }

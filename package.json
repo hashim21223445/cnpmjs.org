@@ -28,7 +28,7 @@
     "co-defer": "^1.0.0",
     "co-gather": "~0.0.1",
     "co-sleep": "~0.0.1",
-    "commander": "^2.11.0",
+    "commander": "^14.0.1",
     "copy-to": "^2.0.1",
     "debug": "^3.0.0",
     "error-formater": "^1.0.3",

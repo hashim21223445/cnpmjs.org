@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:25.2.0
 MAINTAINER Bono Lv <lvscar  {aT} gmail.com>
 
 # Working enviroment
